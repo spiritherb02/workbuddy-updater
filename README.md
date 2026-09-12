@@ -32,6 +32,13 @@ https://copilot.tencent.com/v2/update?platform=workbuddy-linux-x64-deb&version=<
 
 ## 安装
 
+### 方式零：AppImage（推荐——双击即用，全程不用命令行）
+
+到 [Releases](https://github.com/spiritherb02/workbuddy-updater/releases) 下载 `workbuddy-updater-x86_64.AppImage`：
+
+1. 下载完**双击**运行（如果打不开：右键 → 属性 → 权限 → 勾选「允许作为程序执行」，或 `chmod +x`）
+2. 界面直接弹出来——自带 Python 与全部依赖，适用所有主流发行版（约 100MB）
+
 ### 方式一：成品包（推荐，零依赖下载）
 
 到 [Releases](https://github.com/spiritherb02/workbuddy-updater/releases) 下载 `.pkg.tar.zst`，然后：
