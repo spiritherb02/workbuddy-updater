@@ -32,23 +32,6 @@ https://copilot.tencent.com/v2/update?platform=workbuddy-linux-x64-deb&version=<
 
 ## 安装
 
-### 方式一：成品包（推荐，零依赖下载）
-
-到 [Releases](https://github.com/spiritherb02/workbuddy-updater/releases) 下载 `.pkg.tar.zst`，然后：
-
-```bash
-sudo pacman -U workbuddy-updater-*.pkg.tar.zst
-```
-
-### 方式二：一行命令（脚本安装，自动装到 /usr/local）
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/spiritherb02/workbuddy-updater/main/install.sh | sudo bash
-```
-
-### 方式三：源码安装
-
-
 ```bash
 sudo ./install.sh          # 安装到 /usr/local（含桌面图标和菜单项）
 ./install.sh --user        # 以桌面用户身份启用每日自动检查
